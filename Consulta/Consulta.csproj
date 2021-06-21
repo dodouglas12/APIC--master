@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Refit" Version="6.0.38" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Consulta.Facades\Consulta.Facades.csproj" />
+    <ProjectReference Include="..\Consulta.Model\Consulta.Model.csproj" />
+    <ProjectReference Include="..\Consulta.Services\Consulta.Services.csproj" />
+  </ItemGroup>
+
+</Project>
